@@ -1,0 +1,99 @@
+@font-face{
+	font-family:"a";
+	src:url('../fonts/cambriab.ttf');
+
+}
+body{
+	background-image: url('../imgs/beibei4.jpg');
+	background-size: cover;
+	font-family: 'a';
+	font-size: 22px;
+}
+#da{
+	width: 1175px;
+	height: 850px;
+	margin: 20px auto 0;
+	position: relative;
+}
+.pokerRight{
+    background: url(../imgs/bei.jpeg) no-repeat -10px  ;	
+/*    display: block;*/
+}
+.poker,.poker1,.pokerRight,.pokerLeft{
+	width: 140px;
+	height: 220px;
+	background-size: cover;
+	border: 1px solid #CECECE;
+	border-radius: 4px;
+	position: relative;
+	cursor: pointer;
+
+
+}
+.poker{
+	position: absolute;	
+	padding: 3px 0 0 5px;
+	box-shadow: 2px 4px 6px black;
+}
+.poker1{
+	padding: 3px 0 0 5px;
+	position: absolute;
+
+	
+}
+.pokerRight{
+	box-shadow: 1px 1px 10px black;
+	position: absolute;
+	display: none;
+	right: 300px;
+	top: 520px;
+}
+.pokerLeft{
+	box-shadow: 1px 1px 10px black;
+	position: absolute;
+	left: 300px;
+	top: 520px;
+}
+.button{
+	width: 140px;
+	height: 40px;
+	/*border: 1px solid black;*/
+	position: absolute;
+	box-shadow:2px 4px 6px black;
+	left: 517.5px;
+	color: white;
+    font-weight: bolder;
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+	background:#000000;
+	cursor:pointer;
+
+};
+/*#kkkk{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background: red;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	top:600px;
+	left: 520px;
+}*/
+/*#tip{
+	width: 300px;
+	height: 400px;
+	background: #E9A30B;
+	line-height: 400px;
+	text-align: center;
+	font-size: 50px;
+
+	position: absolute;
+	left: 320px;
+	top: 300px;
+}*/
+
+
+
